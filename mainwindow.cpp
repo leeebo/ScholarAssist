@@ -142,6 +142,7 @@ QString MainWindow::gszl(QString strin1)
     last_choosed_radio_langge=choosed_radio_langge;
     if(choosed_radio_langge==0)  //english
     {
+        strtemp1.replace("-\r\n-","").replace("-\n\r-","").replace("-\n-","").replace("-\r-","");
         strtemp1.replace("-\r\n","").replace("-\n\r","").replace("-\n","").replace("-\r","");
         strtemp1.replace("\r\n"," ").replace("\n\r"," ").replace("\n"," ").replace("\r"," ");
         for(int i=1;i<20;i++)
