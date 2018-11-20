@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>917</width>
+    <width>592</width>
     <height>818</height>
    </rect>
   </property>
@@ -29,9 +29,9 @@
      <height>10000</height>
     </size>
    </property>
-   <layout class="QVBoxLayout" name="verticalLayout" stretch="30,3,2">
+   <layout class="QVBoxLayout" name="verticalLayout" stretch="33,4,5">
     <item>
-     <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
       <item>
        <widget class="QTextEdit" name="textEdit_in">
         <property name="styleSheet">
@@ -85,7 +85,7 @@
             <cursorShape>PointingHandCursor</cursorShape>
            </property>
            <property name="styleSheet">
-            <string notr="true">font: 75 16pt &quot;Adobe Arabic&quot;;</string>
+            <string notr="true">font: 12pt &quot;宋体&quot;;</string>
            </property>
            <property name="text">
             <string>英文</string>
@@ -120,7 +120,7 @@
             <cursorShape>PointingHandCursor</cursorShape>
            </property>
            <property name="styleSheet">
-            <string notr="true">font: 75 16pt &quot;Adobe Arabic&quot;;</string>
+            <string notr="true">font: 12pt &quot;宋体&quot;;</string>
            </property>
            <property name="text">
             <string>中文</string>
@@ -146,7 +146,7 @@
             <cursorShape>PointingHandCursor</cursorShape>
            </property>
            <property name="styleSheet">
-            <string notr="true">font: 75 16pt &quot;Adobe Arabic&quot;;</string>
+            <string notr="true">font: 12pt &quot;宋体&quot;;</string>
            </property>
            <property name="text">
             <string>混合</string>
@@ -203,10 +203,10 @@
             <cursorShape>PointingHandCursor</cursorShape>
            </property>
            <property name="styleSheet">
-            <string notr="true">font: 75 16pt &quot;Adobe Arabic&quot;;</string>
+            <string notr="true">font: 12pt &quot;宋体&quot;;</string>
            </property>
            <property name="text">
-            <string>仅整理</string>
+            <string>整理</string>
            </property>
            <property name="checked">
             <bool>true</bool>
@@ -239,9 +239,9 @@
            </property>
            <property name="font">
             <font>
-             <family>Adobe Arabic</family>
-             <pointsize>16</pointsize>
-             <weight>9</weight>
+             <family>宋体</family>
+             <pointsize>12</pointsize>
+             <weight>50</weight>
              <italic>false</italic>
              <bold>false</bold>
             </font>
@@ -250,7 +250,7 @@
             <cursorShape>PointingHandCursor</cursorShape>
            </property>
            <property name="styleSheet">
-            <string notr="true">font: 75 16pt &quot;Adobe Arabic&quot;;</string>
+            <string notr="true">font: 12pt &quot;宋体&quot;;</string>
            </property>
            <property name="text">
             <string>高级</string>
@@ -270,15 +270,15 @@
            </property>
            <property name="font">
             <font>
-             <family>等线</family>
-             <pointsize>10</pointsize>
+             <family>宋体</family>
+             <pointsize>8</pointsize>
              <weight>50</weight>
              <italic>false</italic>
              <bold>false</bold>
             </font>
            </property>
            <property name="styleSheet">
-            <string notr="true">font: 10pt &quot;等线&quot;;</string>
+            <string notr="true">font: 8pt &quot;宋体&quot;;</string>
            </property>
            <item>
             <property name="text">
@@ -365,6 +365,12 @@
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
         </property>
         <property name="cursor">
          <cursorShape>PointingHandCursor</cursorShape>
